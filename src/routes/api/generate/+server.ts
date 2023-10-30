@@ -1,13 +1,13 @@
 import { openai } from '$lib/openai/client';
-import { completionFunctions, runFunction } from '$lib/openai/completionFunctions.js';
+import { completionFunctions, runFunction } from '$lib/openai/completionFunctions';
 import { OpenAIStream, StreamingTextResponse } from 'ai';
 
 export const config = {
 	runtime: 'edge'
 };
 
-// const gptModel = 'gpt-4';
-const gptModel = 'gpt-3.5-turbo';
+const gptModel = 'gpt-4';
+// const gptModel = 'gpt-3.5-turbo';
 
 export async function POST({ request }) {
 	const { messages, systemMessages } = await request.json();

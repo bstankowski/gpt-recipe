@@ -7,7 +7,7 @@ Built with SvelteKit and Tailwind CSS.
 ## Use
 
 Paste a URL to a recipe and fill in the list of ingredients you have.
-GPT will check if you're missing anything', and create a short list of steps to prepare the dish.
+GPT will check if you're missing anything, and create a short list of steps to prepare the dish.
 
 ## Develop
 

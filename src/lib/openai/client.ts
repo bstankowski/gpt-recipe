@@ -6,7 +6,7 @@ if (!OPENAI_API_KEY) {
 }
 
 const openaiConfig = new Configuration({
-	apiKey: OPENAI_API_KEY || ''
+	apiKey: OPENAI_API_KEY
 });
 
 export const openai = new OpenAIApi(openaiConfig);
